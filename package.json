@@ -1,0 +1,24 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "First Udacity project towards nanodegree in front end development",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Udacity",
+    "project1",
+    "portfolio",
+    "site"
+  ],
+  "author": "Deirdre Ni Chonaill",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-responsive-images": "*"
+  },
+  "dependencies": {
+    "grunt-responsive-images": "^0.1.6"
+  }
+}

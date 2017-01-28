@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deirdre's Designer/Developer Portfolio</title>
+
+<!-- Bootstrap Essentials -->
+<link rel="stylesheet" href="_assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="_assets/js/jquery-2.1.4.min.js"></script>
+<script src="_assets/js/bootstrap.min.js"></script>
+<!-- Site Specific Styles -->
+<link rel="stylesheet" href="_assets/css/styles.css">
+</head>
+
+<body>
+<div class="container">
+  <!-- Header Content -->
+  <header class="row main-page-header">
+    <div class="col-sm-12 text-right">
+      <!-- Logo -->
+      <picture class="logo">
+        <source type="image/svt+xml" srcset="images/nikkonikko-logo.svg" class="img-responsive pull-left">
+        <img src="images/logo.gif" alt="Logo" class="img-responsive pull-left">
+      </picture>
+      <h1 class="main-header-title">Nikko Nikko</h1>
+      <h3 class="main-header-subtitle">Front End Ninja</h3>
+    </div>
+  </header>
+  <!-- /header.row -->
+
+  <!-- Main Page Content -->
+  <main>
+    <!-- Hero Image -->
+    <div class="row">
+      <div class="col-sm-12 hero">
+        <!-- TODO: Make background image on div as non-semantic -->
+        <img srcset="images/hero-collage-small.jpg 360w,
+          images/hero-collage-large.jpg 800w,
+          images/hero-collage-xlarge.jpg 1080w"
+          sizes="(max-width: 1170px) 100vw"
+          src="images/hero-collage-xlarge.jpg"
+          class="img-responsive" alt="Photo collage of letters, drops of water and a snail's shell">
+      </div>
+    </div><!-- /.row -->
+
+    <!-- Featured Work -->
+    <div class="row">
+      <header class="col-sm-12 no-left-margin">
+        <h2>Featured Work</h2>
+      </header>
+    </div><!-- /.row -->
+    <section class="row feature">
+      <article class="col-sm-4">
+        <figure>
+          <img src="images/chicken-small.jpg"
+            srcset="images/chicken-small.jpg 360w,
+            images/chicken-medium.jpg 800w,
+            images/chicken-large.jpg 1080w"
+            sizes="(max-width: 800px) 100vw, 30.769vw"
+            class="img-responsive" alt="Grumpy chicken">
+        </figure>
+        <h3 class="feature-title"><a href="//github.com/udacity/Appify/">DESIGN <span class="fa fa-chevron-circle-right"></span></a></h3>
+        <!-- TODO: Add short description -->
+        <p class="feature-text">Officil incipsapis volut quunt.Lorecus quaepudae. Um hicimintiat ut preius aute sinctiis nonet pedicate voluptur.</p>
+      </article>
+      <article class="col-sm-4">
+        <figure>
+          <img src="images/flower-small.jpg"
+            srcset="images/flower-small.jpg 360w,
+            images/flower-medium.jpg 800w,
+            images/flower-large.jpg 1080w"
+            sizes="(max-width: 800px) 100vw, 30.769vw"
+            class="img-responsive" alt="Close up of white corn flower">
+        </figure>
+        <h3 class="feature-title"><a href="//github.com/udacity/Sunflower/">PHOTOGRAPHY <span class="fa fa-chevron-circle-right"></span></a></h3>
+        <!-- TODO: Add short description -->
+        <p class="feature-text">Officil incipsapis volut quunt.Lorecus quaepudae. Um hicimintiat ut preius aute sinctiis nonet pedicate voluptur.</p>
+      </article>
+      <article class="col-sm-4">
+        <figure>
+          <img src="images/bokeh-small.jpg"
+            srcset="images/bokeh-small.jpg 360w,
+            images/bokeh-medium.jpg 800w,
+            images/bokeh-large.jpg 1080w"
+            sizes="(max-width: 800px) 100vw, 30.769vw"
+            class="img-responsive" alt="Green tree bokeh effect">
+        </figure>
+        <h3 class="feature-title"><a href="//github.com/udacity/Bokeh/">CODE <span class="fa fa-chevron-circle-right"></span></a></h3>
+        <!-- TODO: Add short description -->
+        <p class="feature-text">Officil incipsapis volut quunt.Lorecus quaepudae. Um hicimintiat ut preius aute sinctiis nonet pedicate voluptur.</p>
+      </article>
+    </section><!-- /.row.feature -->
+  </main><!-- /main -->
+
+  <!-- Footer -->
+  <footer class="row">
+    <div class="col-sm-6 social-media">
+      <!-- Stacked font awesome icons -->
+      <a href="mailto:me@me.com"><span class="fa-stack fa-2x social-icon"> <span class="fa fa-envelope-square fa-stack-1x social-icon"></span> </span> Email me</a><br>
+      <a href="#"><span class="fa-stack fa-2x social-icon social-icon"> <span class="fa fa-linkedin-square fa-stack-1x social-icon"></span> </span> LinkedIn</a><br>
+      <a href="#"><span class="fa-stack fa-2x social-icon"> <span class="fa fa-facebook-square fa-stack-1x social-icon"></span> </span> Facebook</a><br>
+    </div><!-- /.social-media -->
+    <div class="col-sm-6 copyright">
+      <p class="copyright-text"><span class="fa fa-copyright"></span> 2015 Nikko Nikko</p>
+    </div><!-- /.col-sm-6 -->
+  </footer><!-- /footer.row -->
+</div><!-- /.container -->
+
+</body>
+</html>
